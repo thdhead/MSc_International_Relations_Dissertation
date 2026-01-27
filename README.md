@@ -163,6 +163,7 @@ A placebo exercise is run over **2018Q1–2021Q4** with a forced placebo treatme
 ## How to run
 ### Requirements
 - R (recommended: recent 4.x)
+- RStudio (2025.05.1 Build 513)
 - Packages used in the script:
   - `tidyverse`, `lubridate`, `slider`, `ggplot2`
   - `fixest`, `did`, `marginaleffects`
