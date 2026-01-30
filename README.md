@@ -1,6 +1,6 @@
 # MSc_International_Relations_Dissertation
 
-> **Script:** `Diss_scrip_final.R`
+> **Script:** `Diss_script_final.R`
 
 This repository contains a single end‑to‑end R script that:
 - builds a **harmonised Eurostat panel dataset** (monthly + annual)
@@ -25,12 +25,12 @@ This repository contains a single end‑to‑end R script that:
 ## Overview
 The core empirical idea is to test whether countries that were **more dependent on Russian gas imports before the war** saw different post‑March‑2022 patterns in **renewables** (share and generation), controlling for country and time fixed effects and a set of time‑varying controls.
 
-The workflow is fully contained in `Diss_scrip_final.R` and is designed to run **top‑to‑bottom**.
+The workflow is fully contained in `Diss_script_final.R` and is designed to run **top‑to‑bottom**.
 
 ---
 
 ## Data inputs
-Place these files in the **project root** (same folder as `Diss_scrip_final.R`). The script reads them directly by name.
+Place these files in the **project root** (same folder as `Diss_script_final.R`). The script reads them directly by name.
 
 ### Monthly inputs
 - `estat_nrg_cb_pem_filtered_PC.tsv` — renewables (percent)
@@ -186,7 +186,7 @@ mkdir -p tables
 ```
 3. Run the script:
 ```bash
-Rscript Diss_scrip_final.R
+Rscript Diss_script_final.R
 ```
 
 
