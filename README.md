@@ -18,7 +18,6 @@ This repository contains a single end‑to‑end R script that:
 - [Treatment and identification](#treatment-and-identification)
 - [Models estimated](#models-estimated)
 - [How to run](#how-to-run)
-- [Troubleshooting](#troubleshooting)
 
 ---
 
