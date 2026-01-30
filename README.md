@@ -189,11 +189,4 @@ mkdir -p tables
 Rscript Diss_scrip_final.R
 ```
 
----
-
-## Troubleshooting
-- **`tables/` does not exist**: create it first (`mkdir -p tables`).
-- **One typo in the script**: there is one occurrence of `ontrol_group = "notyettreated"` (missing the leading `c`). Change it to `control_group = "notyettreated"`.
-- **Plots not saved**: the script prints plots to the session. If you want files, add `ggsave()` where needed.
-- **Missing / malformed TSVs**: these must match the Eurostat‑style wide TSV structure expected by the cleaning functions.
 
