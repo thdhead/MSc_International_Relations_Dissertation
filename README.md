@@ -54,12 +54,6 @@ Place these files in the **project root** (same folder as `Diss_script_final.R`)
 - `merged_monthly_energy_dataset.csv`
 - `merged_annual_data.csv`
 
-### Descriptive tables (CSV)
-Written to `tables/`:
-- `tables/T4_overall.csv`
-- `tables/T4_pre.csv`
-- `tables/T4_post.csv`
-
 ---
 
 ## What the script builds
